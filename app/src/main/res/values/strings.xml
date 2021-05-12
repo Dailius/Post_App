@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Posts_App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name:</string>
+    <string name="dots">.......</string>
+    <string name="city">City:</string>
+    <string name="company">Company:</string>
+    <string name="post_title"><u>Title:</u></string>
+    <string name="refresh">Refresh</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_message">Error message</string>
+</resources>
