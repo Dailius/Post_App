@@ -7,8 +7,8 @@ Coroutines in charge for data communication between architectural parts and impl
  
 ![screen](livedata_with_coroutines_and_flow_SMALL.png)
 
-Data fetched from https://jsonplaceholder.typicode.com/ with Retrofit library in conjunction with REST API. Pictures comes from different source: https://source.unsplash.com/collection/542909/
-All WEB data is cached in local disc with ROOM DAO. Post details are fetched from different source of tables therefore relational table in charge (many to one) to make things simple.
+Data fetched from https://jsonplaceholder.typicode.com/ with Retrofit library in conjunction with REST API. Pictures comes from different source: https://source.unsplash.com/collection/542909/ .
+All WEB data is cached in local disc with ROOM DAO. Post details are fetched from different source of tables therefore relational table in play (many to one) to make things simple.
 
 ![screen](sql_many_to_one_relationships_SMALL.png)
 
