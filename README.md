@@ -1,8 +1,10 @@
-# Technical descritption:
+# Technical description:
 [MVVM pattern](https://developer.android.com/jetpack/guide#overview) used for app architecture. Following the most important principle of SoC (separation of concerns)
-Coroutines in charge for data communication between architetual parts and immplemented in following way:
- - Data communication between UI and ViewModel with LiveData in main thert. 
- - Communication between ViewModel and Repository with Flow in IO thred and collected with LiveData
+Coroutines in charge for data communication between architectural parts and implemented in following way:
+ - Data communication between UI and ViewModel with LiveData in main thread. 
+ - Communication between ViewModel and Repository with Flow in IO thredd and collected with LiveData
+![screen]()
+
 
 # Features:
 *	Loads data from WEB
