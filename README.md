@@ -12,7 +12,7 @@ All WEB data is cached in local disc with ROOM DAO. Post details are fetched fro
 
 ![screen](sql_many_to_one_relationships_SMALL.png)
 
-During production time after flow implementation in IO thread app crashed without any error message. Crashes appear with Pixel 2 API R only, app switched off after 9sec. when post details loaded. With Pixel 2 API 27 was stable. Takes some time to figure out the root of cause and it was Glide library. Therefore testes other picture loading libraries: Picasso and Coil. Both of them didn't crash the app and finally  decided  to keep Coil.
+During production time after flow implementation in IO thread app crashed without any error message. Crashes appear with Pixel 2 API R only, app switched off after 9sec. when post details loaded. With Pixel 2 API 27 was stable. Takes some time to figure out the root of cause and it was Glide library. Therefore tested other picture loading libraries: Picasso and Coil. Both of them didn't crash the app and finally  decided  to keep Coil.
 
 
 # Features:
