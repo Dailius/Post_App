@@ -3,7 +3,7 @@
 Coroutines in charge for data communication between architectural parts and implemented in following way:
  - Data communication between UI and ViewModel with LiveData in main thread. 
  - Communication between ViewModel and Repository with Flow in IO thredd and collected with LiveData
-![screen]()
+![screen](livedata_with_coroutines_and_flow_SMALL.png)
 
 
 # Features:
