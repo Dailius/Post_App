@@ -36,10 +36,6 @@ interface PostsDao {
     @Query("DELETE FROM user")
     suspend fun deleteAllUserDetails()
 
-    //    @Transaction
-//    @Query("SELECT * FROM user WHERE userId = :userId")
-//    suspend fun getPostAndUser(userId: Int): PostAndUser
-
     @Transaction
     @Query("SELECT * FROM posts_details WHERE postsId = :postsId")
     suspend fun getPostAndUser(postsId: Int): PostAndUser
